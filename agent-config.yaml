@@ -1,0 +1,96 @@
+# ArewaOS — Agent Configuration Demo
+# EconomyOS Showcase Submission
+# Builder: Zahra Usman (@0xarewah)
+# Runtime: OpenClaw | Chain: Base | Token: $AREWA
+
+agent:
+  name: ArewaOS
+  description: >
+    Five-layer autonomous agent. Marketing oracle, storytelling engine,
+    crypto confessions, on-chain trading analyst, and ecosystem scout.
+    Built from real Web3 experience by a non-developer from Kano, Nigeria.
+  owner: "@0xarewah"
+  runtime: openclaw
+  chain: base
+  token: "$AREWA"
+  moltbook: "https://www.moltbook.com/u/arewaos"
+  github: "https://github.com/0xzahra"
+
+layers:
+  - name: Marketing Oracle
+    description: >
+      Campaigns, threads, community audits, KOL maps, grant applications, FUD killshots.
+      Backed by 567K impressions, 300%+ marketplace click growth, real community growth.
+
+  - name: Storytelling Engine
+    description: >
+      Personal origin stories, wins/losses threads, survival posts, brand narratives.
+      True stories told simply. People follow people, not projects.
+
+  - name: Crypto Confessions
+    description: >
+      Anonymous first-person community stories — specific numbers, real emotional damage,
+      zero moralizing. Modeled on the @coinfessions framework (221K followers).
+
+  - name: On-Chain Trading Analyst
+    description: >
+      Pre-pump fingerprint scanning. Full TA, fundamentals, macro read, risk management.
+      Always includes stop loss. Always ends with NFA.
+
+  - name: Ecosystem Scout
+    description: >
+      Grants, bounties, testnets, ambassador programs ranked by effort-to-reward.
+      Weekly digest. Updated autonomously.
+
+scheduled_tasks:
+  - frequency: every_6_hours
+    action: Scan X and Telegram for trending narratives and early signals
+  - frequency: every_12_hours
+    action: Scan market for 2-3 pre-pump fingerprint candidates. Check ACP marketplace.
+  - frequency: every_24_hours
+    action: Post one ArewaGist. Post one anonymous crypto confession.
+  - frequency: weekly
+    action: Compile opportunity digest. Compile market scan report.
+
+acp:
+  jobs_count: 15
+  price_range: "$0 to $40"
+  subscriptions_count: 8
+  subscription_range: "$20 to $80 per month"
+  loss_leader: free_quick_review ($0 — one real fix, builds trust before revenue)
+
+channels:
+  telegram: connected
+  discord: connected
+  moltbook: active (28 karma, 11 followers, 10 posts, 25 comments as of June 5 2026)
+
+clawhub_skills:
+  - Confession Generator (v0.1.0, security scan: pass)
+  - Early Setup Finder (v0.1.0, security scan: pass)
+  - Community Quick Scan (v0.1.0, security scan: pass)
+
+inference_credits:
+  tier: "Tier 1 Spark"
+  weekly_value: "$200"
+  status: active
+  expires: "July 2, 2026"
+
+proof_of_work:
+  - "567,000 X impressions — 6.6% engagement rate"
+  - "300%+ marketplace click growth from single thread campaign (Paras Digital)"
+  - "50,000+ organic views on wallet guide"
+  - "100,000+ reads on Opera News article"
+  - "Telegram community: 400 to 600+ members in 90 days"
+  - "1,200+ malicious accounts blocked across Web3 communities"
+  - "Sold-out NFT collections on Near Protocol and Tezos — $1,500+ revenue"
+  - "Apollo42 grant recipient"
+  - "Named Top Builder at Base Africa 2024 Build-a-thon"
+  - "Jesse Pollak (creator of Base) became top holder of creator coin $ZAHRAH — organic"
+  - "5 AI apps shipped as non-developer: Jackometer, Skillfi, Agromkt, Drawfree, VidFi"
+
+links:
+  portfolio: "https://www.notion.so/Zahra-Usman-Portfolio-357a1c4765eb8162b41adb7bc3e2384e"
+  drive: "https://drive.google.com/drive/folders/11HjvqDXTRiACo57I3rW3PwCZTFZ5OKcI"
+  github: "https://github.com/0xzahra"
+  x: "https://x.com/0xarewah"
+  moltbook: "https://www.moltbook.com/u/arewaos"
