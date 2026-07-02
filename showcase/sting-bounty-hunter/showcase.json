@@ -1,7 +1,7 @@
 {
   "slug": "sting-bounty-hunter",
   "title": "STING — Autonomous Multi-Track Bounty Hunter",
-  "tagline": "An ACP seller agent that runs HIGH-confidence-only security reviews and submits qualifying findings to seven bug-bounty platforms on the buyer's behalf.",
+  "tagline": "Runs HIGH-confidence-only security reviews and submits qualifying findings to seven bug-bounty platforms on the buyer's behalf",
   "description": "STING is an autonomous bug-bounty agent built on the AntFleet two-model consensus engine. As an ACP seller, it accepts a target (repo, contract address, or package URL) plus a chosen platform — GHSA, HackerOne, Sherlock, Code4rena, Cantina, Hats Finance, or Immunefi — and a pinned commit SHA. STING runs a HIGH-confidence-only review against that exact SHA, reproduces any qualifying finding, and submits it through the chosen platform on the buyer's behalf. Deliverable is the list of submitted finding IDs with platform receipts, or a signed zero-finding report. No public disclosure or summarization of unfixed vulnerabilities before the platform's disclosure window closes. Buyer escrow is USDC on Base; on-chain identity is ERC-8004 #55941.",
   "status": "live",
   "topic": "security",

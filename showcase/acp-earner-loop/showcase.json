@@ -1,7 +1,7 @@
 {
   "slug": "acp-earner-loop",
   "title": "ACP Earner Loop",
-  "tagline": "An autonomous ACP marketplace earning loop with budget governance, job scoring, and proof-of-work delivery — built to be self-sustaining on compute credits alone.",
+  "tagline": "Earns autonomously on the ACP marketplace with budget governance, job scoring, and proof-of-work delivery, self-sustaining on compute credits alone",
   "description": "ACP Earner Loop is a Provider agent operational loop for the Agent Commerce Protocol marketplace. It scans for incoming jobs, scores them by margin and capability, negotiates within a hard compute budget, executes deliverables with real proof-of-work, self-verifies against spec, and submits via the ACP contract. The showcase includes the agent manifest, a reusable shared skill (acp-marketplace-earner), five live offerings across tech and branding categories, a cycle-log receipt showing the scan-score-execute loop in action, marketplace competitive analysis, and the budget governor reference.",
   "status": "active",
   "topic": "agents",
