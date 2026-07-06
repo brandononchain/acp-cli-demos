@@ -1,14 +1,16 @@
 {
   "slug": "arcis-protocol",
-  "title": "Arcis Protocol \u2014 Agent Yield Infrastructure",
-  "tagline": "Agents deposit idle USDC, earn ~3.2% APY via Aave V3, withdraw on demand. Three functions: deposit(), withdraw(), balance(). Live on Base.",
-  "description": "Arcis Protocol provides yield, credit, and bond infrastructure for autonomous AI agents on Base mainnet. Agents deposit idle USDC into an ERC-4626 vault, which allocates 70% to Aave V3 (~3.2% APY) and holds 30% in reserve for instant withdrawals. Credit lines price collateral by ERC-8004 reputation tier. Revenue bonds let agents with income streams issue tokenized debt. All three instruments share one interface: deposit(), withdraw(), balance(). The protocol is operated end-to-end by CUSTOS, an autonomous keeper agent tokenized on Virtuals ($CUSTOS), which harvests yield, monitors loan health, and services bond coupons on fixed intervals with every action verifiable on Basescan. This showcase packages the idle-capital workflow as a reusable skill: any agent with an Agent Wallet monitors its USDC balance, deposits excess above a threshold, and withdraws automatically when it needs liquidity for payments. Live since June 2026 with 116 passing tests, DeFiLlama TVL tracking, and an MCP server at mcp.arcis.money for natural-language access.",
+  "title": "Arcis Protocol — Agent Yield Infrastructure",
+  "tagline": "Agents deposit idle USDC into an ERC-4626 vault, earn Aave V3 yield, and withdraw on demand. Three functions: deposit(), withdraw(), balance(). Live on Base.",
+  "description": "Arcis Protocol is yield, credit, and bond infrastructure for autonomous AI agents on Base mainnet. Agents deposit idle USDC into an ERC-4626 vault that allocates ~70% to Aave V3 (~3.2% supply APR) and holds the rest in reserve for instant, on-demand withdrawals. Credit lines price collateral by ERC-8004 reputation tier; revenue bonds let agents with income streams issue tokenized debt. All three instruments share one interface: deposit(), withdraw(), balance(). The protocol is operated end-to-end by CUSTOS — an autonomous keeper agent tokenized on Virtuals ($CUSTOS) — which harvests yield, monitors loan health, and services bond coupons on fixed intervals, every action verifiable on Basescan. This showcase packages the idle-capital workflow as a reusable skill: any agent with an Agent Wallet watches its USDC balance, deposits the excess above a threshold, and withdraws automatically when it needs liquidity for payments. Live since June 2026 with 116 passing tests, DeFiLlama TVL tracking, and an MCP server at mcp.arcis.money for natural-language access.",
   "status": "live on mainnet",
   "topic": "defi",
   "topics": [
     "defi",
-    "skills",
-    "capital"
+    "yield",
+    "agent-treasury",
+    "erc-4626",
+    "base"
   ],
   "hidden": false,
   "builder": {
@@ -17,19 +19,21 @@
   },
   "links": {
     "repo": "https://github.com/Arcis-Protocol",
+    "feedback": "https://github.com/Virtual-Protocol/acp-cli-demos/issues/new?title=Feedback%3A%20Arcis%20Protocol",
     "demo": "https://arcis.money/dashboard",
     "share": "https://x.com/custos0x",
     "docs": "https://github.com/Arcis-Protocol/docs/blob/main/WHITEPAPER.md"
   },
   "primitives": [
     "wallet",
-    "token"
+    "token",
+    "acp"
   ],
   "visual": {
-    "kind": "live page",
-    "eyebrow": "defi + agent-wallet",
-    "title": "arcis vault",
-    "videoLabel": "View the live dashboard"
+    "kind": "ERC-4626 vault + agent wallet",
+    "eyebrow": "defi · aave v3 · base",
+    "title": "the citadel of agent capital",
+    "posterUrl": "https://raw.githubusercontent.com/Virtual-Protocol/acp-cli-demos/main/showcase/arcis-protocol/assets/poster.png"
   },
   "skills": [
     {
@@ -62,6 +66,11 @@
       "kind": "proof"
     },
     {
+      "label": "CUSTOS — live ACP agent on Virtuals",
+      "href": "https://app.virtuals.io/acp/agent/019f1b2a-adeb-7c71-baf5-9baad0d0eeae",
+      "kind": "demo"
+    },
+    {
       "label": "Skill source",
       "href": "https://github.com/Arcis-Protocol/docs/blob/main/examples/arcis-x402-idle-capital.ts",
       "kind": "skill"
@@ -78,8 +87,8 @@
     }
   ],
   "feedbackPrompts": [
-    "Should idle-capital thresholds adapt to each agent's payment frequency?",
-    "Which other yield strategies should Arcis add beyond Aave V3?",
-    "What docs would make this easier for Virtuals agents to reuse?"
+    "Should idle-capital thresholds adapt to each agent's payment cadence?",
+    "Which yield strategies should Arcis add beyond Aave V3?",
+    "What would make this idle-capital skill easiest for Virtuals agents to reuse?"
   ]
 }
